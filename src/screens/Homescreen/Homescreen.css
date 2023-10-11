@@ -1,0 +1,88 @@
+.homescreen{
+    height: 500px;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.I{
+  transition: .5s linear;
+  margin-left: 0px;
+}
+.name h1{
+    color: #24b7c8;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: monospace;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 7px;
+    cursor: pointer
+  }
+  .name h1 .sunil{
+    transition: .5s linear;
+    margin-left: 20px;
+  }
+  .name h1:hover span:nth-child(1){
+    margin-right: 5px
+  }
+  .name h1:hover span:nth-child(1):after{
+    content: "";
+  }
+  .name h1:hover span:nth-child(2){
+    margin-left: 30px
+  }
+  .name h1:hover span{
+    color: #ffffff;
+    text-shadow: 0 0 10px #fff,
+                 0 0 20px #fff, 
+                 0 0 40px #fff;
+  }
+  .discription{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: #fff;
+  }
+  .started{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.lts-gt-std-btn{
+    display: flex;
+    background: transparent;
+    align-items: center;
+    width: 150px;
+    font-size: 20px;
+    height: 40px;
+    border: 1px solid rgb(123, 118, 118);
+    justify-content: center;
+    --b: 0.1em;   /* the thickness of the line */
+    --c: #fff; /* the color */
+    
+    color: #484848;
+    padding-block: var(--b);
+    background: 
+      linear-gradient(var(--c) 50%,#000 0) 0% calc(100% - var(--_p,0%))/100% 200%,
+      linear-gradient(var(--c) 0 0) 0% var(--_p,0%)/var(--_p,0%) var(--b) no-repeat;
+    -webkit-background-clip: text,padding-box;
+            background-clip: text,padding-box;
+    transition: .3s var(--_s,0s) linear,background-size .3s calc(.3s - var(--_s,0s));
+}
+.lts-gt-std-btn:hover{
+    cursor: pointer;
+    color: #fff;
+    --_p: 100%;
+    --_s: .3s;
+    border: 1px solid rgb(8, 8, 8);
+}
