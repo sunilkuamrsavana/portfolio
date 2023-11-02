@@ -1,0 +1,67 @@
+.ExperienceScreen {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+.WorkContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-top: 5%;
+    overflow-x: scroll;
+    gap: 20px;
+}
+.WorkContainer::-webkit-scrollbar{
+    display: none;
+}
+.WorkTitle{
+    font-size: 1.6em;
+}
+.workDisc{
+    font-size: 1.2em;
+}
+.sideLine{
+    display: flex;
+    width: 5vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sideLine p{
+    height: 350px;
+    width: 1px;
+    background-color: white;
+}
+.jobs{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    gap: 20px;
+}
+.Jobscontainer{
+    display: flex;
+    height: 350px;
+    gap: 20px;
+}
+.JobTitle{
+    height: 250px;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.JobTitle p{
+    font-size: 1.7em;
+}
+.JobTitle span{
+    font-size: 1.1em;
+    color: #cbd5e1;
+}
+.JobDiscription{
+    color: #cbd5e1;
+    height: 350px;
+    width: 55vw;
+    font-size: 1.2em;
+    border-bottom: 1px solid #cbd5e1;
+}
