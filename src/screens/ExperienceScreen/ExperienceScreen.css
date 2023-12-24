@@ -1,13 +1,12 @@
 .ExperienceScreen {
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     display: flex;
 }
 .WorkContainer{
     width: 100%;
     display: flex;
     flex-direction: column;
-    padding-left: 5%;
     padding-top: 5%;
     overflow-x: scroll;
     gap: 20px;

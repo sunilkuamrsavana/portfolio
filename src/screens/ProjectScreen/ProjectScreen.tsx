@@ -4,7 +4,16 @@ import { motion } from 'framer-motion'
 function ProjectScreen() {
   return (
     <div className='ProjectScreen'>
-        <motion.div animate={{x:0,scale:1}} initial={{x:-400,scale:0}}>ProjectScreen</motion.div>
+      <div className="card">
+  <div className="first-content">
+    <span>First</span>
+  </div>
+  <div className="second-content">
+<span>Second</span>
+  </div>
+
+
+</div>
     </div>  
 )
 }

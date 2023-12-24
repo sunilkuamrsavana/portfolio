@@ -40,7 +40,9 @@ function App() {
             <p onClick={()=>{setCurrentScreen(ScreenType.ProjectScreen)}}>Projects</p>
           </div>
         </div>
-        {getScreen()}
+        <div className='screen_container'>
+          {getScreen()}
+        </div>
       </div>
     </div>
   );
